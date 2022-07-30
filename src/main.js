@@ -1,11 +1,7 @@
-import { createApp } from "vue"
-import App from "./App.vue"
-import router from "@/router"
+import {createApp} from "vue"
 import "bootstrap-icons/font/bootstrap-icons.css"
-import Toast from 'vue-toast-notification';
 import 'vue-toast-notification/dist/theme-sugar.css';
+import App from "@/App.vue";
 
-createApp(App)
-    .use(router)
-    .use(Toast)
-    .mount("#app")
+const app = createApp(App)
+    .mount('#app')
