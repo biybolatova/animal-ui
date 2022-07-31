@@ -14,3 +14,4 @@ vite
 ```
 vite build
 ```
+Щипаемся от ветки dev
