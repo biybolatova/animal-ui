@@ -35,10 +35,10 @@ export default {
 }
 
 .dialog__content {
-  margin: auto;
+  margin: 5% auto auto;
+  width: 80%;
   background: white;
   border-radius: 12px;
-  min-height: 50px;
-  min-width: 300px;
+  padding: 20px;
 }
 </style>

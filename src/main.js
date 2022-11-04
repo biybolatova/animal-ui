@@ -9,7 +9,6 @@ import components from "./components/UI"
 const app = createApp(App)
 
 components.forEach(component => {
-    console.log("componentName: ", component.name, component)
     app.component(component.name, component)
 })
 
